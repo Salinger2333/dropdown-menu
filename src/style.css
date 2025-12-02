@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.more {
+    position: relative;
+}
+.dropdown-menu.visible {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 1px;
+}
+.dropdown-menu {
+  display: none;
+
+}
+
+.dropdown-menu li {
+  list-style: none;
+  border: 2px solid gainsboro;
+}

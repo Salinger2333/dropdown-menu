@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack Template</title>
+    <title>dropdown menu</title>
 </head>
 <body>
-    <h1>Hello, Webpack!</h1>
+    <nav>
+        <div class="item">HOME</div>
+        <div class="item">MENU</div>
+        <div class="item">ABOUT</div>
+        <div class="item more">JOIN US</div>
+    </nav>
 </body>
+<style>
+    nav {
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+        border-bottom: 1px solid rgb(160, 160, 160);
+        
+    }
+    .item {
+        border: 2px solid rgb(160, 160, 160);
+        width: 6rem;
+    }
+</style>
 </html>
